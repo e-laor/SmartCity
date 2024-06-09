@@ -33,6 +33,9 @@ const MainHeader = () => {
             <li>
               <a href='Contact'>Contact Us</a>
             </li>
+            <li>
+              <a href='Login'>Login</a>
+            </li>
           </ul>
         </MenuLinks>
       </CustomNavBar>
@@ -129,6 +132,19 @@ const MenuLinks = styled.div`
     font-weight: bold;
     font-size: 18px;
     transition: all 0.3s ease-in-out;
+  }
+
+  /* Style for login link */
+  a[href="Login"] {
+    border: 1px solid rgb(0, 127, 255);
+    border-radius: 10px;
+    color: black; /* Blue color */
+    background-color: #fff;
+    padding: 5px 10px;
+  }
+  a[href="Login"]:hover{
+    background-color:rgb(0, 127, 255);
+    color:#fff;
   }
 
   /* Media queries */
